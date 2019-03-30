@@ -1,0 +1,16 @@
+@import 'variables';
+
+@mixin font-size($value) {
+    $base: map-get($fontSize, base);
+    font-size: $value !important;
+    font-size: ($value / $base) * 1rem !important;
+}
+
+@mixin logo($fs, $color) {
+    font-family: "Archivo Black", sans-serif !important;
+    text-transform: uppercase;
+    color: $color;
+    @include font-size($fs);
+}
+
+

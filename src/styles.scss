@@ -1,0 +1,48 @@
+@import 'bootstrap';
+
+
+*, *:before, *:after { box-sizing: border-box; }
+
+html { font-size: 62.5% !important; }
+
+a { text-decoration: none !important; }
+
+div, li, p, a, 
+h2, h3, h4, h5, h6
+{ font-family: 'Open Sans', sans-serif !important; }
+
+// @font-face {
+//     font-family: 'grand-stylus';
+//     src: url('./assets/fonts/grand-stylus/grand_stylus.ttf')  format('truetype') /* Safari, Android, iOS */
+//     // src: url('webfont.eot'); /* IE9 Compat Modes */
+//     // src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//     //      url('webfont.woff') format('woff'), /* Modern Browsers */
+//     //      url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//     //      url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+    
+// }
+
+
+@font-face {
+  font-family:"grand-stylus";
+  src: url("./assets//fonts/grand-stylus/grand_stylus.ttf") format("truetype");
+}
+
+.uk-container { text-align: center !important; }
+.uk-background-primary { background-color: $c-primary !important; }
+.uk-background-default { background-color: #fff; }
+.uk-background-muted { background-color: $c-light !important; }
+
+
+
+
+
+
+ 
+
+
+
+
+
+

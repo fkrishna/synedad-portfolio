@@ -1,0 +1,13 @@
+@import 'variables';
+
+@function responsive-font-size-small($font-size) {
+    @return (map-get($base-responsive-font-size-screens, small) / 100%) * $font-size;
+}
+
+@function responsive-font-size-medium($font-size) {
+    @return (map-get($base-responsive-font-size-screens, medium) / 100%) * $font-size;
+}
+
+@function responsive-font-size-large($font-size) {
+    @return (map-get($base-responsive-font-size-screens, large) / 100%) * $font-size;
+}

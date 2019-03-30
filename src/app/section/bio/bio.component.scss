@@ -1,0 +1,32 @@
+@import 'bootstrap';
+
+$color: #757575;
+
+.uk-section p {
+    color: $color;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 2px;
+    @include font-size($fs-med);
+}
+
+.btn-more > i {
+    font-size:2rem;   
+    color: $color;
+    border: 1px solid $color; 
+    border-radius: 100px; 
+    padding: 10px; 
+    &:hover { color: #424242; }
+}
+
+.uk-close { background-color: $c-primary; }
+
+.full-bio {
+    background-color: $c-primary;
+    p {
+        text-align: justify;
+        line-height: 1.6;
+        color: #9E9E9E;
+        @include font-size(15px);
+    }
+}

@@ -1,0 +1,28 @@
+@import 'bootstrap';
+
+h2 {
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 1.2;
+  @include font-size($fs-lg);
+}
+
+.representation {
+  margin-top: 20px;
+  .infos {
+    &:before { border: 1px solid #212121}
+    ul {
+      padding: 30px;
+      text-align: justify;
+      .uk-nav-header {
+        color: #fff;
+        @include font-size($fs-def); 
+      }
+      li {
+        line-height: 1.2;
+        color: #9E9E9E;
+        @include font-size($fs-med);
+      }
+    }
+  }
+}

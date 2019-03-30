@@ -1,0 +1,48 @@
+<div class="uk-navbar-container navbar uk-box-shadow-small">
+  <div class="uk-container">
+    <nav class="uk-hidden@m" uk-navbar style="position: relative; z-index: 980;">
+      <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#offcanvas-slide" uk-toggle></a>
+      </div>
+      <div class="uk-navbar-center">
+        <a href="/">
+          <logo></logo>
+        </a>
+      </div>
+    </nav>
+
+    <nav class="uk-visible@m" uk-navbar>
+      <div class="uk-navbar-left">
+        <span class="uk-navbar-item">
+          <a href="/">
+            <logo></logo>
+          </a>
+        </span>
+      </div>
+      <div class="uk-navbar-center">
+        <ul class="uk-navbar-nav">
+          <li *ngFor="let nav of navs" [class.uk-active]="nav.active">
+            <a [href]="'#' + nav.name" uk-scroll="offset:350">{{ nav.name }}</a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+  </div>
+</div>
+
+<!-- off-canvas navigation sidebar -->
+<div id="offcanvas-slide" uk-offcanvas="overlay: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <div class="uk-margin-medium">
+      <div class="uk-panel">
+        <ul class="uk-nav">
+          <li class="uk-nav-header">Menu</li>
+          <li *ngFor="let nav of navs" [class.uk-active]="nav.active">
+            <a [href]="'#' + nav.name" uk-scroll="offset:350">{{ nav.name }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

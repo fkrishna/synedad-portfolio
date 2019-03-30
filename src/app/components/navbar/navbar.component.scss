@@ -1,0 +1,19 @@
+@import 'bootstrap';
+
+.uk-navbar-container {
+
+    & { background-color: $c-primary; }
+    
+   .uk-navbar-nav {
+      a {
+        color: #eee; 
+        @include font-size($fs-def);
+        &:hover { color: #fff; }
+      }
+      .uk-active a {
+        color: #fff;
+        font-weight: 600;
+        border-bottom: 2px solid $c-secondary;
+      }
+    }
+}

@@ -1,0 +1,5 @@
+@import 'bootstrap';
+
+span { @include logo($fs-xlg, #fff); }
+.y { color: $c-secondary }
+

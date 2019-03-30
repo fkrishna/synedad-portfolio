@@ -1,0 +1,24 @@
+@import 'bootstrap';
+
+.banner {
+    height: 180px;
+    h1 {
+        font-family: 'grand-stylus', cursive !important;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+        text-transform: capitalize;
+        @include font-size(65px);
+        color: map-get($colors, secondary);
+    }
+}
+
+/*
+=================================
+MEDIA QUERIES
+=================================
+*/
+@media (min-width: 960px) {
+    .banner {
+        height: 325px;
+        h1 { @include font-size(100px); }
+    }
+}

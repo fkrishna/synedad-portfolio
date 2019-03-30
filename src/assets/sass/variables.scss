@@ -1,0 +1,36 @@
+/* Colors */
+$colors: (
+  primary: #101010,
+  secondary:#FBC02D,
+  muted: #eee
+);
+$c-primary: map-get($colors, primary);
+$c-secondary: map-get($colors, secondary);
+$c-light: map-get($colors, muted);
+
+
+
+/* 
+Font-Size 
+Must set html { font-size: 62.5% !important; }
+*/
+$fontSize: (
+  base: 10px,
+  small: 14px,
+  default: 16px,
+  medium: 18px,
+  large: 28px,
+  xlarge: 34px
+);
+$fs-sm: map-get($fontSize, small);
+$fs-def: map-get($fontSize, default);
+$fs-med: map-get($fontSize, medium);
+$fs-lg: map-get($fontSize, large);
+$fs-xlg: map-get($fontSize, xlarge);
+
+/* responsive font-size base */
+$base-responsive-font-size-screens: (
+  small: 90%,
+  medium: 90%,
+  large: 100%
+);
