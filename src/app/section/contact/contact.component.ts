@@ -12,19 +12,19 @@ export class ContactComponent {
     {
       name: 'Kervens Alexandre',
       email: 'Kervykervv@gmail.com',
-      number: '407-607-2255'
+      number: '+1 (407)-607-2255'
     },
     management:
     {
-      name: 'management Name',
-      email: 'johndoe@management.com',
-      number: '123-456-7890'
+      name: 'Youri Pierre',
+      email: 'ohndoe@management.com',
+      number: '+1 (407)-757-6556'
     },
     label:
     {
-      name: 'Label Name',
-      email: 'johndoe@label.com',
-      number: '123-456-7890'
+      name: 'Vibe Dealers',
+      email: 'Vibedealersmgmt@gmail.com',
+      number: '+1 (407)-607-2255'
     }
   };
 
