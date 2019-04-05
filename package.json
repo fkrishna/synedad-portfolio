@@ -20,9 +20,13 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "adm-zip": "^0.4.13",
     "core-js": "^2.5.4",
+    "lodash": "^4.17.11",
+    "parsejson": "0.0.3",
     "rxjs": "^6.0.0",
     "uikit": "^3.0.0-rc.14",
+    "webpack-dev-server": "^3.2.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
