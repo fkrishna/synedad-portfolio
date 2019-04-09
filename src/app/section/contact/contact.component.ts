@@ -16,14 +16,14 @@ export class ContactComponent {
     },
     management:
     {
-      name: 'Youri Pierre',
-      email: 'ohndoe@management.com',
-      number: '+1 (407)-757-6556'
+      name: 'Farid Paul Abdella',
+      email: 'Contact.vibedealerz@gmail.com',
+      number: '+1 (786)-5161900'
     },
     label:
     {
-      name: 'Vibe Dealers',
-      email: 'Vibedealersmgmt@gmail.com',
+      name: 'Vibe Dealerz',
+      email: 'Contact.vibedealerz@gmail.com',
       number: '+1 (407)-607-2255'
     }
   };
